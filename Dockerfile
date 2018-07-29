@@ -6,4 +6,4 @@ RUN /opt/yilu/mservice -user_id 24126 -reg_device
 
 RUN  service rsyslog start && /opt/yilu/mservice  && sleep 10 &&  tail -f /opt/yilu/work/xig/debug.log
 
-CMD echo "2018-07-29 18:00:01 running" > /logs && tail -f /logs
+CMD echo "2018-07-29 19:00:01 running" > /logs && tail -f /logs
