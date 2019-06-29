@@ -1,4 +1,4 @@
-FROM firstbloodand001/yiluzhuanqian:v1
+FROM neptunus/yiluzhuanqian
 
 USER root
 
